@@ -102,8 +102,22 @@
                     <h3 class="section-subheading text-muted">A timeline outlining some of my past experiences</h3>
                 </div>
                 <ul class="timeline">
+                    <li class="timeline-inverted">
+                        <div class="timeline-image" data-toggle="modal" href="#afxModal">
+                            <img class="rounded-circle img-fluid" src="assets/img/timeline/afx.png" alt="" />
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="text-muted">Feb 2021</h4>
+                                <h4 class="subheading">AFX Tech</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Joined AFX Tech</p>
+                            </div>
+                        </div>
+                    </li>
                     <li>
-                        <div class="timeline-image" data-toggle="modal" href="#experienceModal1">
+                        <div class="timeline-image" data-toggle="modal" href="#FTCModal">
                             <img class="rounded-circle img-fluid" src="assets/img/timeline/FTC_logo.jpg" alt="" />
                         </div>
                         <div class="timeline-panel">
@@ -116,7 +130,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image" data-toggle="modal" href="#experienceModal2">
+                        <div class="timeline-image" data-toggle="modal" href="#SIPModal">
                             <img class="rounded-circle img-fluid" src="assets/img/timeline/SpokeIt_logo.png" alt="" />
                         </div>
                         <div class="timeline-panel">
@@ -125,12 +139,12 @@
                                 <h4 class="subheading">IOS Internship</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Accepted into UCSC's Summer Internship Program to contribute toward developing an IOS app</p>
+                                <p class="text-muted">Worked in UCSC's Summer Internship Program to contribute toward developing an IOS app</p>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image" data-toggle="modal" href="#experienceModal3">
+                        <div class="timeline-image" data-toggle="modal" href="#synopsysModal">
                             <img class="rounded-circle img-fluid" src="assets/img/timeline/synopsys_logo.jpeg" alt="" />
                         </div>
                         <div class="timeline-panel">
@@ -144,7 +158,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image" data-toggle="modal" href="#experienceModal4">
+                        <div class="timeline-image" data-toggle="modal" href="#androidAppModal">
                             <img class="rounded-circle img-fluid" src="assets/img/timeline/rover_ruckus_logo.jpg" alt="" />
                         </div>
                         <div class="timeline-panel">
@@ -157,7 +171,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image" data-toggle="modal" href="#experienceModal5">
+                        <div class="timeline-image" data-toggle="modal" href="#COSMOSModal">
                             <img class="rounded-circle img-fluid" src="assets/img/timeline/cosmos_logo.jpg" alt="" />
                         </div>
                         <div class="timeline-panel">
@@ -170,7 +184,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image" data-toggle="modal" href="#experienceModal1">
+                        <div class="timeline-image" data-toggle="modal" href="#FTCModal">
                             <img class="rounded-circle img-fluid" src="assets/img/timeline/FTC_logo.jpg" alt="" />
                         </div>
                         <div class="timeline-panel">
@@ -197,7 +211,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="experience-item">
-                            <a class="experience-link" data-toggle="modal" href="#experienceModal1">
+                            <a class="experience-link" data-toggle="modal" href="#FTCModal">
                                 <div class="experience-hover">
                                     <div class="experience-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -211,7 +225,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="experience-item">
-                            <a class="experience-link" data-toggle="modal" href="#experienceModal2">
+                            <a class="experience-link" data-toggle="modal" href="#SIPModal">
                                 <div class="experience-hover">
                                     <div class="experience-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -225,7 +239,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="experience-item">
-                            <a class="experience-link" data-toggle="modal" href="#experienceModal3">
+                            <a class="experience-link" data-toggle="modal" href="#synopsysModal">
                                 <div class="experience-hover">
                                     <div class="experience-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -391,8 +405,40 @@
         </footer>
         
         <!-- Experience Modals-->
+        <div class="experience-modal modal fade" id="afxModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">AFX</h2>
+                                    <p class="item-intro text-muted">The technology and software behind UC Berkeley's biggest dance organization.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/timeline/afx.png" alt="" />
+                                    <p>
+                                        Committed time toward learning AFX Tech's three primary projects - 
+                                        maintaing the website, managing the AFX dancers database, and improving
+                                        a cross-platform music app - and the underlying technologies: React, Ruby and React Native.
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li><b>Date: </b>February 2021 - Present</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Modal 1-->
-        <div class="experience-modal modal fade" id="experienceModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="experience-modal modal fade" id="FTCModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -432,7 +478,7 @@
             </div>
         </div>
         <!-- Modal 2-->
-        <div class="experience-modal modal fade" id="experienceModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="experience-modal modal fade" id="SIPModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -467,7 +513,7 @@
             </div>
         </div>
         <!-- Modal 3-->
-        <div class="experience-modal modal fade" id="experienceModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="experience-modal modal fade" id="synopsysModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -504,7 +550,7 @@
             </div>
         </div>
         <!-- Modal 4-->
-        <div class="experience-modal modal fade" id="experienceModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="experience-modal modal fade" id="androidAppModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -536,7 +582,7 @@
             </div>
         </div>
         <!-- Modal 5-->
-        <div class="experience-modal modal fade" id="experienceModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="experience-modal modal fade" id="COSMOSModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
