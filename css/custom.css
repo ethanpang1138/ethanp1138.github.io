@@ -1,0 +1,10 @@
+/* Education divs per semester */
+#education .row div:hover {
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+
+.timeline > li .timeline-image:hover {
+    border: 7px solid #b4b4b4;
+    cursor: pointer;
+  }
