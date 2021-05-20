@@ -30,7 +30,7 @@ const TimelineItem = ({data, orientation}) => {
                                     <img class="img-fluid d-block mx-auto" src={path+data.modalImg} alt="" />
                                     <p>{data.modalDescription}</p>
                                     <ul class="list-inline">
-                                        <li><b>Date: </b>{data.date}</li>
+                                        <li><b>Date: </b>{data.modalDate}</li>
                                         {data.linkTitle ? <li><a href={data.link} target="_blank">{data.linkTitle}</a></li> : null}
                                         {data.github ? <li><a href={data.github} target="_blank">Github</a></li> : null}
                                     </ul>
