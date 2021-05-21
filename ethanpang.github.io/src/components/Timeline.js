@@ -1,5 +1,5 @@
 import TimelineItem from "./TimelineItem"
-import TimelineImages from "../TimelineData"
+import TimelineImages from "../data/TimelineData"
 
 const Timeline = (props) => {
     const events = []

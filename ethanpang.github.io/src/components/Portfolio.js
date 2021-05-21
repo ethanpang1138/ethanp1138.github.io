@@ -1,5 +1,5 @@
 import PortfolioItem from "./PortfolioItem"
-import PortfolioData from "../PortfolioData"
+import PortfolioData from "../data/PortfolioData"
 
 const Portfolio = (props) => {
     const items = []

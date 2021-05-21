@@ -9,8 +9,15 @@ import Footer from "./components/Footer"
 import Portfolio from "./components/Portfolio"
 import ExperienceModals from "./components/ExperienceModals"
 import Masthead from "./components/Masthead"
+import useScript from "./hooks/useScript"
 
 function App() {
+  useScript("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+  useScript("https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js")
+  useScript("https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js")
+  useScript("js/scripts.js")
+  useScript("js/particles.js")
+  useScript("js/app.js")
   return (
     <div className="App">
       <Navbar/>

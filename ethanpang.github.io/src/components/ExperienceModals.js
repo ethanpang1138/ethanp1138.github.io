@@ -1,4 +1,4 @@
-import ExperienceModalData from "../ExperienceModalData"
+import ExperienceModalData from "../data/ExperienceModalData"
 import ExperienceModal from "./ExperienceModal"
 
 const ExperienceModals = (props) => {
