@@ -14,7 +14,7 @@ const Timeline = (props) => {
             
             const item = <TimelineItem data={data} orientation={orientation}/>
             events.push(item)
-        } 
+        }
     }
     createTimelineItems()
 

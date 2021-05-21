@@ -1,11 +1,7 @@
-let TimelineImages = [
+let ExperienceModalData = [
+    // Timeline
     {
         modalName: "FTCModal",
-        img: "FTC_logo.jpg",
-        date: "Aug 2016",
-        heading: "Joined FTC Robotics",
-        description: "Joined Leland High School's FIRST Tech Challenge Robotics team.",
-
         modalTitle: "FIRST Tech Challenge Robotics",
         modalHeading: "4 years of building, programming, collaborating and leading.",
         modalImg: "robot.png",
@@ -17,11 +13,6 @@ let TimelineImages = [
     },
     {
         modalName: "COSMOSModal",
-        img: "cosmos_logo.jpg",
-        date: "Jul 2017 - Aug 2017",
-        heading: "COSMOS",
-        description: "Attended the COSMOS summer program, collaboratively building an IOS application.",
-
         modalTitle: "COSMOS",
         modalHeading: "IOS programming and acoustics theory",
         modalImg: "cosmos_app.png",
@@ -33,12 +24,6 @@ let TimelineImages = [
     },
     {
         modalName: "synopsysModal",
-        img: "synopsys_logo.jpeg",
-        date: "Nov 2018 - Mar 2019",
-        heading: "Synopsys Science Fair",
-        description: "Participated in the competition with an Arduino-controlled device and an Android app.",
-
-        
         modalTitle: "Synopsys Science Fair",
         modalHeading: "Sound localization device using Arduino and Android.",
         modalImg: "synopsys_screenshot.jpg",
@@ -50,11 +35,6 @@ let TimelineImages = [
     },
     {
         modalName: "SIPModal",
-        img: "SpokeIt_logo.png",
-        date: "Jun 2019 - Aug 2019",
-        heading: "Summer Internship Program",
-        description: "Worked in UCSC's Summer Internship Program to contribute toward developing an IOS app.",
-    
         modalTitle: "Summer Internship Program",
         modalHeading: "Worked on an IOS speech therapy application at UCSC's Summer Internship Program (SIP)",
         modalImg: "spokeit_screenshot.png",
@@ -65,34 +45,57 @@ let TimelineImages = [
         link: "https://spokeitthegame.com/"
     },
     {
-        modalName: "FTCModal",
-        img: "FTC_logo.jpg",
-        date: "Jun 2020",
-        heading: "Finish FTC Robotics",
-        description: "Graduated from the FTC robotics as team captain.",
-
-        modalTitle: "FIRST Tech Challenge Robotics",
-        modalHeading: "4 years of building, programming, collaborating and leading.",
-        modalImg: "robot.png",
-        modalDescription: "FIRST is one of the biggest organizations holding robotics competitions for students from K-12. I have participated in the high school division for all four years.\nOn the mechanical side, I helped build robots to compete in competitions by solving various tasks using purchased and machined parts. I also used Computer Aided Design to model and create 3D printed parts.\nFor programming, I used Java and Android Studio to control the robot to perform autonomously through sensor readings, computer vision, and mathematical algorithms. The robot responds to human input via a physical gaming controller and operates autonomously via pre-programmed instructions and sensors.\nOutside of the technical aspect, I organized and lead team outreach efforts to spread industry awareness of FIRST robotics through company tours, teach STEM skills to underrepresnted students through public workshops, and mentor younger robotics teams.\nMy team advanced to the World Championships competition three of the four years and I served as team Co-Captain in the 2019-2020 season.",
-        modalDate: "August 2016- June 2020",
-
-        linkTitle: "Team Website",
-        link: "https://www.quixilver8404.org/"
-    },
-    {
         modalName: "afxModal",
-        img: "afx.png",
-        date: "Feb 2021",
-        heading: "AFX Tech",
-        description: "Joined AFX Tech",
-
         modalTitle: "AFX",
         modalHeading: "The technology and software behind UC Berkeley's biggest dance organization.",
         modalImg: "afx.png",
         modalDescription: "Committed time toward learning AFX Tech's three primary projects - maintaing the website, managing the AFX dancers database, and improvinga cross-platform music app - and the underlying technologies: React, Ruby and React Native.",
         modalDate: "February 2021 - Present",
     },
+    // Portfolio
+    {
+        modalName: "androidAppModal",
+        modalTitle: "Android App",
+        modalHeading: "Scoring app for FTC robotics",
+        modalImg: "android_app_screenshot.jpg",
+        modalDescription: "FIRST Tech Challenge competitions consist of scoring points on the playing field with the robot. This Android app could be used for real-time scoring during a round in the 2018 - 2019 season.",
+        modalDate: "Novermber 2017 - December 2017",
+
+        github: "https://github.com/ethanpang1138/RoverRuckusScorer"
+    },
+    {
+        modalName: "gitletModal",
+        modalTitle: "Gitlet",
+        modalHeading: "Version-Control System",
+        modalImg: "",
+        modalDescription: "",
+        modalDate: "March 2021",
+
+        linkTitle: "Project Specification",
+        link: "https://sp21.datastructur.es/materials/proj/proj2/proj2"
+    },
+    {
+        modalName: "byowModal",
+        modalTitle: "2D World Generator",
+        modalHeading: "Random and Interactive 2D World Generation Engine",
+        modalImg: "",
+        modalDescription: "",
+        modalDate: "April 2021",
+
+        linkTitle: "Project Specification",
+        link: "https://sp21.datastructur.es/materials/proj/proj3/proj3"
+    },
+    {
+        modalName: "tabulateModal",
+        modalTitle: "Tabulate",
+        modalHeading: "Browser Organization Dashboard",
+        modalImg: "",
+        modalDescription: "",
+        modalDate: "February 2021 - May 2021",
+
+        linkTitle: "Chrome Extension",
+        link: ""
+    },
 ]
 
-export default TimelineImages
+export default ExperienceModalData
