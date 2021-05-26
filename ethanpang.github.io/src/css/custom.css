@@ -12,7 +12,16 @@
 
 /* Portfolio */
 
-.experience-hover > img{
+.experience-caption {
+    margin-bottom: 30px;
+    
+}
+
+.experience-caption-heading {
+    font-size: 125%;
+}
+
+.experience-hover > img {
     border-radius: 5px;
 }
 

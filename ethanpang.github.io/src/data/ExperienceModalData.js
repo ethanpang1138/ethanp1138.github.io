@@ -17,7 +17,8 @@ let ExperienceModalData = [
         modalHeading: "IOS programming and acoustics theory",
         modalImg: "cosmos_app.png",
         modalDescription: "The COSMOS Summer Program offers high school students the opportunity to learn about and work on a project in a specific STEM field. My group collaboratively built an IOS project under the mentorship of UCI Professor Martin Jaroszewicz. I integrated gyroscopic input with IOS programming to create an app that can simulate sound in a 3D virtual environment. A gyroscope tracks the user's head and headphones play sounds depending on the gyroscope orientation. The sounds is \"placed\" so as to appear to originate from varying directions in the real world, and remain in place no matter how the user turns their head.",
-    
+        modalDate: "July 2018 - August 2018",
+
         linkTitle: "COSMOS UCI",
         link: "https://www.cosmos.uci.edu/",
         github: "https://github.com/ethanpang5/FirstCombatSoundSimulator"
@@ -28,7 +29,8 @@ let ExperienceModalData = [
         modalHeading: "Sound localization device using Arduino and Android.",
         modalImg: "synopsys_screenshot.jpg",
         modalDescription: "The Synopsys Science Fair invites any high school student to enter and create a STEM-related project with some real-world use. I collaboratively built an Arduino-controlled electronic device equipped with microphones and implemented a sound localization algorithm.\nIts purpose is to detect potentially dangerous events in the surroundings of a hearing-impaired individual. To provide a user interface, an Android mobile app was designed to pair with the Arduino device via Bluetooth.\nLastly, I used a pre-existing machine learning model to classify common urban-setting sounds to demonstrate the device's future uses.",
-    
+        modalDate: "November 2018 - March 2019",
+
         linkTitle: "Engineering Notebook",
         link: "https://docs.google.com/presentation/d/1orRFRdvYG9PhlRuBUHgk_7lGw865ftlLyUuMsIdJ1r4/edit?usp=sharing",
         github: "https://github.com/ethanpang1138/Synopsys-project"
@@ -42,7 +44,7 @@ let ExperienceModalData = [
         modalDate: "June 2019 - August 2019",
 
         linkTitle: "Project Website",
-        link: "https://spokeitthegame.com/"
+        link: "https://spokeitthegame.com/",
     },
     {
         modalName: "afxModal",
@@ -59,14 +61,16 @@ let ExperienceModalData = [
         modalHeading: "Scoring app for FTC robotics",
         modalImg: "android_app_screenshot.jpg",
         modalDescription: "FIRST Tech Challenge competitions consist of scoring points on the playing field with the robot. This Android app could be used for real-time scoring during a round in the 2018 - 2019 season.",
-        modalDate: "Novermber 2017 - December 2017",
+        modalDate: "November 2018 - December 2018",
 
+        linkTitle: "Google Play Store",
+        link: "https://play.google.com/store/apps/details?id=com.ethanp1138.roverruckusscorerapp&hl=en_US&gl=US",
         github: "https://github.com/ethanpang1138/RoverRuckusScorer"
     },
     {
         modalName: "gitletModal",
         modalTitle: "Gitlet",
-        modalHeading: "Version-Control System",
+        modalHeading: "A Version-Control System based off of git",
         modalImg: "",
         modalDescription: "",
         modalDate: "March 2021",
@@ -93,8 +97,9 @@ let ExperienceModalData = [
         modalDescription: "",
         modalDate: "February 2021 - May 2021",
 
-        linkTitle: "Chrome Extension",
-        link: ""
+        linkTitle: "Tabulate Website",
+        link: "https://ethanpang5.github.io/tabulate/",
+        github: "https://github.com/ethanpang5/tabulate"
     },
 ]
 
