@@ -4,14 +4,30 @@
     border-radius: 20px;
 }
 
+#education .row p {
+    margin-bottom: 5px
+}
+
+/* Timeline */
+
 .timeline > li .timeline-image:hover {
     border: 7px solid #b4b4b4;
+    /* border: 7px solid #fec810; */
     cursor: pointer;
   }
 
 /* Portfolio */
 
-.experience-hover > img{
+.experience-caption {
+    margin-bottom: 30px;
+    
+}
+
+.experience-caption-heading {
+    font-size: 125%;
+}
+
+.experience-hover > img {
     border-radius: 5px;
 }
 
