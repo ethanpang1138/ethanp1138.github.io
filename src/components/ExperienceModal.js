@@ -1,5 +1,5 @@
 const ExperienceModal = ({data}) => {
-    const path = "assets/img/timeline/"
+    const path = "assets/img/modals/"
     return (
         <div class="experience-modal modal fade" id={data.modalName} tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">

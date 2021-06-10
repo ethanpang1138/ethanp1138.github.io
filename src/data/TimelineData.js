@@ -36,7 +36,7 @@ let TimelineImages = [
     },
     {
         modalName: "afxModal",
-        img: "afx.png",
+        img: "afx_logo.png",
         date: "Feb 2021",
         heading: "AFX Tech",
         description: "Joined AFX Tech",
