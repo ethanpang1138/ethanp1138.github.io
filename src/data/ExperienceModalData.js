@@ -21,7 +21,8 @@ let ExperienceModalData = [
 
         linkTitle: "COSMOS UCI",
         link: "https://www.cosmos.uci.edu/",
-        github: "https://github.com/ethanpang5/FirstCombatSoundSimulator"
+        linkTitle2: "Github",
+        link2: "https://github.com/ethanpang5/FirstCombatSoundSimulator"
     },
     {
         modalName: "synopsysModal",
@@ -33,7 +34,8 @@ let ExperienceModalData = [
 
         linkTitle: "Engineering Notebook",
         link: "https://docs.google.com/presentation/d/1orRFRdvYG9PhlRuBUHgk_7lGw865ftlLyUuMsIdJ1r4/edit?usp=sharing",
-        github: "https://github.com/ethanpang1138/Synopsys-project"
+        linkTitle2: "Github",
+        link2: "https://github.com/ethanpang1138/Synopsys-project"
     },
     {
         modalName: "SIPModal",
@@ -54,6 +56,19 @@ let ExperienceModalData = [
         modalDescription: "Committed time toward learning AFX Tech's three primary projects - maintaing the website, managing the AFX dancers database, and improving a cross-platform music app - and the underlying technologies: React, Ruby, and React Native.",
         modalDate: "February 2021 - Present",
     },
+    {
+        modalName: "cs61bTutorModal",
+        modalTitle: "CS61B Tutor",
+        modalHeading: "Part of staff for one of UC Berkeley's largest required computer science courses.",
+        modalImg: "modal_cs61bTutor.png",
+        modalDescription: "Prepared and presented supplementary mini-lectures to students to reinforce concepts learned in class and guided students through practice questions to solidify understanding of material. Also answered student questions on the public class forum about assignments and concepts, and provided deugging help in real time to student with their projects.",
+        modalDate: "June 2021 - August 2021",
+
+        linkTitle: "CS61B Summer 2021 Website",
+        link: "https://cs61bl.org/su21/",
+        linkTitle2: "Teaching Material",
+        link2: "https://drive.google.com/drive/folders/1aAu-NOlVfbnbly901wa3sXn0a16pToYK?usp=sharing",
+    },
     // Portfolio
     {
         modalName: "androidAppModal",
@@ -65,7 +80,8 @@ let ExperienceModalData = [
 
         linkTitle: "Google Play Store",
         link: "https://play.google.com/store/apps/details?id=com.ethanp1138.roverruckusscorerapp&hl=en_US&gl=US",
-        github: "https://github.com/ethanpang1138/RoverRuckusScorer"
+        linkTitle2: "Github",
+        link2: "https://github.com/ethanpang1138/RoverRuckusScorer"
     },
     {
         modalName: "gitletModal",
@@ -99,7 +115,8 @@ let ExperienceModalData = [
 
         linkTitle: "Tabulate Website",
         link: "https://ethanpang5.github.io/tabulate/",
-        github: "https://github.com/ethanpang5/tabulate"
+        linkTitle2: "Github",
+        link2: "https://github.com/ethanpang5/tabulate"
     },
 ]
 

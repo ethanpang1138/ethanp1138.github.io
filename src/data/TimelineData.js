@@ -41,6 +41,13 @@ let TimelineImages = [
         heading: "AFX Tech",
         description: "Joined AFX Tech",
     },
+    {
+        modalName: "cs61bTutorModal",
+        img: "cs61b_logo.png",
+        date: "Jun - Aug 2021",
+        heading: "CS61B Tutor",
+        description: "Joined course staff for CS61B",
+    },
 ]
 
 export default TimelineImages

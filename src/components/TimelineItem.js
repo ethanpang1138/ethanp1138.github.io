@@ -1,6 +1,5 @@
 const TimelineItem = ({data, orientation}) => {
     // const {modalName, img, date, heading, description} = data
-    console.log(data.img)
     const path = "assets/img/timeline/"
     return (
         <li class={orientation}>

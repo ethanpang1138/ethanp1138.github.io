@@ -16,7 +16,7 @@ let EducationData = [
     },
     {
         term: "Summer 2021",
-        classes: ["CS61C: Computer Architecture (Machine Structures)"]
+        classes: ["CS61C: Computer Architecture and Machine Structures"]
     },
     {
         term: "Fall 2021",

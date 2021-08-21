@@ -16,7 +16,7 @@ const ExperienceModal = ({data}) => {
                                     <ul class="list-inline">
                                         <li><b>Date: </b>{data.modalDate}</li>
                                         {data.linkTitle ? <li><a href={data.link} target="_blank">{data.linkTitle}</a></li> : null}
-                                        {data.github ? <li><a href={data.github} target="_blank">Github</a></li> : null}
+                                        {data.linkTitle2 ? <li><a href={data.link2} target="_blank">{data.linkTitle2}</a></li> : null}
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
