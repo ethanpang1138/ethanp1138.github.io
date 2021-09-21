@@ -21,8 +21,7 @@ let EducationData = [
     {
         term: "Fall 2021",
         classes: ["CS170: Efficient Algorithms and Intractable Problems", 
-                    "CS188: Introduction to Artificial Intelligence",
-                    "Data 140: Probability for Data Science"]
+                    "CS188: Introduction to Artificial Intelligence"]
     },
 ]
 

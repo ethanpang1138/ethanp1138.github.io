@@ -6,7 +6,7 @@ let ExperienceModalData = [
         modalHeading: "4 years of building, programming, collaborating and leading.",
         modalImg: "modal_FTC.png",
         modalDescription: "FIRST is one of the biggest organizations holding robotics competitions for students from K-12. I have participated in the high school division for all four years.\nOn the mechanical side, I helped build robots to compete in competitions by solving various tasks using purchased and machined parts. I also used Computer Aided Design to model and create 3D printed parts.\nFor programming, I used Java and Android Studio to control the robot to perform autonomously through sensor readings, computer vision, and mathematical algorithms. The robot responds to human input via a physical gaming controller and operates autonomously via pre-programmed instructions and sensors.\nOutside of the technical aspect, I organized and lead team outreach efforts to spread industry awareness of FIRST robotics through company tours, teach STEM skills to underrepresnted students through public workshops, and mentor younger robotics teams.\nMy team advanced to the World Championships competition three of the four years and I served as team Co-Captain in the 2019-2020 season.",
-        modalDate: "August 2016- June 2020",
+        modalDate: "August 2016 - June 2020",
 
         linkTitle: "Team Website",
         link: "https://www.quixilver8404.org/"
@@ -68,6 +68,39 @@ let ExperienceModalData = [
         link: "https://cs61bl.org/su21/",
         linkTitle2: "Teaching Material",
         link2: "https://drive.google.com/drive/folders/1aAu-NOlVfbnbly901wa3sXn0a16pToYK?usp=sharing",
+    },
+    {
+        modalName: "UPEModal",
+        modalTitle: "Upsilon Pi Epsilon: Nu Chapter",
+        modalHeading: "UC Berkeley's chapter for the international honor society for Computer Science",
+        modalImg: "modal_upe.png",
+        modalDescription: "Invited as the top third of declared Computer Science majors to become a member and participate in professional development through resources and networking.",
+        modalDate: "September 2021",
+
+        linkTitle: "UPE Website",
+        link: "https://upe.berkeley.edu/",
+    },
+    {
+        modalName: "PublicEditorModal",
+        modalTitle: "Data Science Discovery: Public Editor",
+        modalHeading: "Correcting Misinformation Through Data Analysis",
+        modalImg: "modal_PublicEditor.png",
+        modalDescription: "The Public Editor mission is to give articles on the internet a score that takes into consideration bias, fallacies, and faulty reasoning so that the public can avoid being mislead and stay informed about the content they consume. Joined the Public Editor project through UC Berkeley's Data Science Discovery Program under the User Monitoring team. Tasked with analyzing data about volunteer editors to award user scores that affect their influence on assessing articles free of bias.",
+        modalDate: "September 2021",
+
+        linkTitle: "Public Editor Website",
+        link: "https://www.publiceditor.io/",
+    },
+    {
+        modalName: "WDBModal",
+        modalTitle: "Web Development at Berkeley",
+        modalHeading: "UC Berkeley’s Premier Web Design and Development Organization",
+        modalImg: "modal_wdb.png",
+        modalDescription: "Joined Web Dev at Berkeley as a Frontend Developer working with clients in the Industry Branch.",
+        modalDate: "September 2021 - Present",
+
+        linkTitle: "WDB Website",
+        link: "https://webatberkeley.org/",
     },
     // Portfolio
     {
