@@ -7,7 +7,7 @@ const Timeline = (props) => {
     function createTimelineItems() {
         for (let i = TimelineImages.length - 1; i >= 0; i--) {
             let orientation = ""
-            if (i % 2 == 1) {
+            if (i % 2 === 1) {
                 orientation = "timeline-inverted"
             }
             const data = TimelineImages[i]

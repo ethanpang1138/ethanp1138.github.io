@@ -10,18 +10,23 @@ let EducationData = [
     },
     {
         term: "Spring 2021",
-        classes: ["CS61B: Data Structures and Algorithms", 
-                    "CS70: Discrete Math and Probability Theory", 
+        classes: ["CS 61B: Data Structures and Algorithms", 
+                    "CS 70: Discrete Math and Probability Theory", 
                     "Data 8: Foundations of Data Science"]
     },
     {
         term: "Summer 2021",
-        classes: ["CS61C: Computer Architecture and Machine Structures"]
+        classes: ["CS 61C: Computer Architecture and Machine Structures"]
     },
     {
         term: "Fall 2021",
-        classes: ["CS170: Efficient Algorithms and Intractable Problems", 
-                    "CS188: Introduction to Artificial Intelligence"]
+        classes: ["CS 170: Efficient Algorithms and Intractable Problems", 
+                    "CS 188: Introduction to Artificial Intelligence"]
+    },
+    {
+        term: "Spring 2022",
+        classes: ["CS 189: Introduction to Machine Learning", 
+                    "Data 100: Principles and Techniques of Data Science"]
     },
 ]
 
