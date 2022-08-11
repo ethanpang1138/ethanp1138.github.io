@@ -14,9 +14,9 @@ const Contact = (props) => {
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/square_profile_pic.jpg" alt="" />
                             <h4>Ethan Pang</h4>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/ethanpang5/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/ethanpang5" target="_blank"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="mailto:ethanp5@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/ethanpang5/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/ethanpang5" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="mailto:ethanp5@berkeley.edu" target="_blank" rel="noreferrer"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">

@@ -6,8 +6,8 @@ const Portfolio = (props) => {
     function createItems() {
         for (let i = 0; i < PortfolioData.length; i++) {
             const data = PortfolioData[i]
-            
-            const item = <PortfolioItem data={data}/>
+
+            const item = <PortfolioItem data={data} />
             items.push(item)
         }
     }
@@ -21,7 +21,9 @@ const Portfolio = (props) => {
                     <h3 class="section-subheading text-muted">An overview of some of my projects</h3>
                 </div>
                 <div class="row">
-                    {items}
+                    {PortfolioData.map((data, key) =>
+                        <PortfolioItem data={data} key={key} />
+                    )}
                 </div>
             </div>
         </section>

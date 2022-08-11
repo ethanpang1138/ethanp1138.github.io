@@ -6,7 +6,7 @@ const ExperienceModals = (props) => {
     function createModals() {
         for (let i = 0; i < ExperienceModalData.length; i++) {
             const data = ExperienceModalData[i]
-            const modal = <ExperienceModal data={data}/>
+            const modal = <ExperienceModal data={data} />
             modals.push(modal)
         }
     }
@@ -14,7 +14,9 @@ const ExperienceModals = (props) => {
 
     return (
         <>
-            {modals}
+            {ExperienceModalData.map((data, key) => 
+                <ExperienceModal data={data} key={key}/>
+            )}
         </>
     )
 }

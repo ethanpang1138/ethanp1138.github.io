@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './css/styles.css'
 import './css/custom.css'
 import Navbar from "./components/Navbar"

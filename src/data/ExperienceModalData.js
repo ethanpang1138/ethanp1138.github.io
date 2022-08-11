@@ -57,7 +57,7 @@ let ExperienceModalData = [
         modalDate: "February 2021 - Present",
     },
     {
-        modalName: "cs61bTutorModal",
+        modalName: "cs61bTutorsu21Modal",
         modalTitle: "CS61B Tutor",
         modalHeading: "Part of staff for one of UC Berkeley's largest required computer science courses.",
         modalImg: "modal_cs61bTutor.png",
@@ -150,6 +150,38 @@ let ExperienceModalData = [
         link: "https://ethanpang5.github.io/tabulate/",
         linkTitle2: "Github",
         link2: "https://github.com/ethanpang5/tabulate"
+    },
+    {
+        modalName: "cs61bTutorsu22Modal",
+        modalTitle: "CS61B Tutor",
+        modalHeading: "Part of staff for one of UC Berkeley's largest required computer science courses.",
+        modalImg: "modal_cs61bTutor.png",
+        modalDescription: "Prepared and presented supplementary mini-lectures to students to reinforce concepts learned in class and guided students through practice questions to solidify understanding of material. Also answered student questions on the public class forum about assignments and concepts, and provided deugging help in real time to student with their projects.",
+        modalDate: "June 2022 - August 2022",
+
+        linkTitle: "CS61B Summer 2021 Website",
+        link: "https://cs61bl.org/su22/",
+        linkTitle2: "Teaching Material",
+        link2: "https://drive.google.com/drive/folders/1pE7GdwMK1HUl23vHzOP6xAtJBvPW86qp?usp=sharing",
+    },
+    {
+        modalName: "dinamicModal",
+        modalTitle: "Fullstack Engineer",
+        modalHeading: "Interned for Dinamic Pricing, aiming to help small businesses improve their e-commerce.",
+        modalImg: "modal_dinamic.png",
+        modalDescription: "Used React and Chakra.ui to fully build out a front-facing website and user-facing analytics dashboard. Handled user login and data visualization through the Etsy API using Node, Express, and MongoDB.",
+        modalDate: "June 2022 - August 2022",
+    },
+    {
+        modalName: "mpcModal",
+        modalTitle: "Undergraduate Research Assistant",
+        modalHeading: "Worked in UC Berkeley's Model Predictive Control Lab",
+        modalImg: "modal_mpc.jpg",
+        modalDescription: "Contributed to the Parking Simulation project which aims to improve control over a collection of automated vehicles in a constrained setting, such as a parking lot. Controlled autonomous vehicle models with the Robot Operating System (ROS). Visuzalized simulated vehicles in a 3D Carla environment built on a MathWorks Roadrunner map. Connected ROS logic with the 3D simulation via the Calra ros-bridge.",
+        modalDate: "June 2022 - August 2022",
+
+        linkTitle: "Github",
+        link: "https://github.com/XuShenLZ/ParkSim",
     },
 ]
 

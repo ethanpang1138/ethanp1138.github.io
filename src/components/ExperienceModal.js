@@ -1,7 +1,7 @@
 const ExperienceModal = ({data}) => {
     const path = "assets/img/modals/"
     return (
-        <div class="experience-modal modal fade" id={data.modalName} tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="experience-modal modal fade" id={data.modalName} tabIndex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal"/></div>
@@ -15,8 +15,8 @@ const ExperienceModal = ({data}) => {
                                     <p>{data.modalDescription}</p>
                                     <ul class="list-inline">
                                         <li><b>Date: </b>{data.modalDate}</li>
-                                        {data.linkTitle ? <li><a href={data.link} target="_blank">{data.linkTitle}</a></li> : null}
-                                        {data.linkTitle2 ? <li><a href={data.link2} target="_blank">{data.linkTitle2}</a></li> : null}
+                                        {data.linkTitle ? <li><a href={data.link} target="_blank" rel="noreferrer">{data.linkTitle}</a></li> : null}
+                                        {data.linkTitle2 ? <li><a href={data.link2} target="_blank" rel="noreferrer">{data.linkTitle2}</a></li> : null}
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>

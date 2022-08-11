@@ -28,6 +28,11 @@ let EducationData = [
         classes: ["CS 189: Introduction to Machine Learning", 
                     "Data 100: Principles and Techniques of Data Science"]
     },
+    {
+        term: "Fall 2022",
+        classes: ["CS 162: Operating Systems and Systems Programming",
+                    "CS 161: Computer Security"]
+    }
 ]
 
 export default EducationData
